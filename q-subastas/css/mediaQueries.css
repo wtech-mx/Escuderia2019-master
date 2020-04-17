@@ -1,0 +1,301 @@
+@media only screen and (max-width: 1024px) {
+	.divListaContenido,
+	#divAdminHome,
+	#divAdminHomeContenido,
+	#divInfoSubasta,
+	.CotizacionServicios,
+	#divServicios,
+	.cnfgSubastaContainer,
+	#grdVehiculos:not(.grdVehiculos2) {
+	    float: left;
+	    width: 100%;
+	    margin: 20px auto;
+	}
+	#divCotizacion {
+	    float: left;
+	    width: 90% !important;
+	    margin: 20px 5% !important;
+	}
+	#divAdminHome > .divSeccionesHome,
+	#divAdminHome > .divTxtTag,
+	#divAdminHome > .divChkestatus,
+	#divAdminHome > .divTipoContenido,
+	#divAdminHome > .divTxtUrl,
+	#divAdminHome > .fotoAuto,
+	#divAdminHome > .divUbicacion,
+	#divAdminHome > .divTxtAncho,
+	#divAdminHome > .divTxtAlto,
+	#divAdminHome > .divChkeslink,
+	#divAdminHome > .divLink,
+	#divAdminHome > .bntGuardar,
+	#divAdminHome > .bntActualizar,
+	.contactForm{
+		float: left;
+	    width: 100%;
+	    margin: 0 0 20px;
+	}
+	#tblResultadosSubastas,
+	.mainBody > h2 {
+		width:96%;
+		margin: 20px 3% 10px;
+		font-size:1.8rem;
+	}
+	.divBotonera {
+	    margin: 20px 0 0 0;
+	}
+	.searchItem {
+		width: 44%;
+		margin: 10px 2%;
+	}
+	.divDetalleAuto > .mbLeft,
+	.divDetalleAuto > .mbRight{
+		width: 96%;
+		background-color: white;
+	}
+	.mainHeader > .btn-flat,
+	.menuitemindex,
+	.dropdown-button,
+	.menuitemindex {
+	    padding: 0 0.6rem;
+	    font-size: 0.8rem;
+	}
+	.nav{
+		height:44px;
+		line-height:44px;
+	}
+	.page-footer{
+		padding:0;
+	}
+	#btnClose{
+		margin: 0;
+	}
+	#divAdminHome > .adminHomeButtons{
+		margin:0;
+	}
+	#divAdminHome > .adminHomeButtons > div {
+	    width: 46%;
+	    margin: 0 2%;
+	    float: left;
+	}
+	#divProgramadorAutos{
+		padding:0 10px;
+	}
+
+}
+@media only screen and (max-width: 970px) {
+	.banner970x90 {
+		height: auto;
+		width: 100%;
+	}
+	.divSeguridad, .divVideoTips {
+		width: 100%;
+		margin: 0;
+	}
+	.divSeccion {
+		margin: 0 5%;
+    	width: 90%;
+	}
+	.banner300x250, .banner300x600 {
+		display: none;
+	}
+	.infoSeguridad {
+		width: 100%;
+	}
+	.localizaGasolineras iframe {
+		width: 100%;
+	}
+	#botoneraContainer {
+	    width: 100%;
+	    margin: 0;
+	}
+	.logoHeader{
+		width: 30%;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	.divSeccion > h2 {
+		font-size: 1.6rem;
+		height: 25px;
+		line-height: 25px;
+		text-indent: 30px;
+		margin: 20px 0;
+	}
+	.divSeccion > h2:before {
+		height: 25px;
+		width: 25px;
+		margin-top: 0;
+	}
+	.calendarioVerificacion > div > div {
+		font-size: 12px;
+	}
+	.contactForm > .row {
+		width: 100%;
+	}
+	.divVideoTips .vidContainer{
+		height: auto;
+	}
+
+	/* --------- LOGIN ---------- */
+	.floatingWindow {
+		float: left;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+	}
+	.logoLogin,
+	.logoCar {
+		height:30px;
+		width: 100%;
+		background-size:contain;
+		margin: 10px 0 20px;
+	}
+	.floatingWindow > div,
+	.floatingWindow > button{
+		top:30px;
+	}
+	.floatingWindow > .divRegistro{
+		height:100px;
+		position:relative;
+		top:100px;
+	}
+	.searchItem {
+		width: 96%;
+		margin: 10px 2%;
+	}
+	.altaAutosContainer > form > .cbMarcaAuto,
+	.altaAutosContainer > form > .cbModeloAuto,
+	.altaAutosContainer > form > .cbColorAuto,
+	.altaAutosContainer > form > .anioAuto,
+	.altaAutosContainer > form > .cbKMAuto,
+	.altaAutosContainer > form > .precioAuto,
+	.altaAutosContainer > form > .cbTipoTransmisionAuto,
+	.altaAutosContainer > form > .cbEstadoAuto,
+	.altaAutosContainer > form > .cbCiudadAuto,
+	.altaAutosContainer > form > .cbFeaturesAutos,
+	.altaAutosContainer > form > .txtaDescripcionAuto,
+	.altaAutosContainer > form > .txtaDescripcionAuto,
+	.altaAutosContainer > form > .chkPublicadoAutos,
+	.altaAutosContainer > form > .fotoAuto,
+	.altaAutosContainer > form > .btnsAuto {
+		width: 100%
+	}
+	.registroMain > form{
+		width: 100%;
+		margin:0;
+
+	}
+	.menuitemwelcome > i:not(#btnClose) {
+		display: none;
+	}
+	.modal {
+		width: 100%;
+	}
+	#divDetalleAuto {
+		top:5% !important;
+		max-height: 90%;
+	}
+	.searchItem2 > div{
+		width:96.7%;
+		text-align:center;
+	}
+	.searchItem2 > div > span:nth-child(odd),
+	.searchItem2 > div > span:nth-child(even){
+		width: 46%;
+		margin: 0 2%;
+	}
+	.searchItem2 > div:nth-child(4){
+		margin:0;
+		height:0px;
+	}
+	.searchItem2 > div:nth-child(2),
+	.searchItem2 > div:nth-child(5){
+		text-align:center;
+	}
+	.cuerpoProgramador > div:nth-child(3),
+	.cuerpoProgramador > div:nth-child(4){
+		width:50%;
+	}
+	.cuerpoProgramador > div:nth-child(5){
+		width:100%;
+		margin-bottom:20px;
+	}
+}
+
+@media only screen and (max-height: 460px) {
+	.divLogin{
+
+		    overflow: scroll;
+	}
+
+	.floatingWindow{
+	    height: auto;
+	}
+}
+@media only screen and (max-width: 375px) {
+	#btnLogin, .btnLogin {
+				width: 80%;    float: right;
+	}
+}
+@media only screen and (max-width: 600px) {
+	/*---------- ADMINISTRADOR DE SUBASTAS  ---------*/
+	#divAdminSubastas .divListaContenido > .divRenglonTabla > .card > .card-content > label{
+		width:100%;
+	}
+	.calendarioVerificacion > div > div:nth-child(1),
+	.calendarioVerificacion > div > div {
+		line-height: 20px;
+    	font-size: 0.8rem;
+	}
+	.menuitemlogin[name="registro"] {
+	    margin-right: 0;
+	}
+
+	#divAdminHomeContenido{
+		white-space:normal;
+		display:block;
+	}
+	#divAdminHomeContenido > div{
+		width: 96%;
+		margin: 20px 2%;
+	}
+	#divAdminHomeContenido > div > img{
+		width: 100% !important;
+	}
+	.secondNav{
+		height:auto;
+		width: 100%;
+	}
+
+}
+@media only screen and (max-height: 768px) {
+	.jssorContainer{
+		display: none;
+	}
+
+	.input-field.col label{
+		font-size:  10px;
+
+	}
+
+	.mainHeader > .btn-flat, .menuitemindex, .dropdown-button, .menuitemindex{
+
+		font-size:  12px !important;
+	}
+
+	.tabs .tab a{
+		font-size:  12px !important;
+
+
+	}
+
+	table.responsive-table th{
+		font-size:  12px !important;
+
+	}
+	table.responsive-table th, table.responsive-table td{
+		font-size:  12px !important;
+
+	}
+}

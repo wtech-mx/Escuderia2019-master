@@ -1,0 +1,229 @@
+{
+	"estados": [
+		{
+			"id": 1,
+			"estado": "Aguascalientes"
+		}, 
+		{
+			"id": 2,
+			"estado": "Baja California"
+		}, 
+		{
+			"id": 3,
+			"estado": "Baja California Sur"
+		}, 
+		{
+			"id": 4,
+			"estado": "Campeche"
+		}, 
+		{
+			"id": 5,
+			"estado": "Chiapas"
+		}, 
+		{
+			"id": 6,
+			"estado": "Chihuahua"
+		}, 
+		{
+			"id": 7,
+			"estado": "Coahuila"
+		}, 
+		{
+			"id": 8,
+			"estado": "Colima"
+		}, 
+		{
+			"id": 9,
+			"estado": "Distrito Federal"
+		}, 
+		{
+			"id": 10,
+			"estado": "Durango"
+		}, 
+		{
+			"id": 11,
+			"estado": "Estado de México"
+		}, 
+		{
+			"id": 12,
+			"estado": "Guanajuato"
+		}, 
+		{
+			"id": 13,
+			"estado": "Guerrero"
+		}, 
+		{
+			"id": 14,
+			"estado": "Hidalgo"
+		}, 
+		{
+			"id": 15,
+			"estado": "Jalisco"
+		}, 
+		{
+			"id": 16,
+			"estado": "Michoacán"
+		}, 
+		{
+			"id": 17,
+			"estado": "Morelos"
+		}, 
+		{
+			"id": 18,
+			"estado": "Nayarit"
+		}, 
+		{
+			"id": 19,
+			"estado": "Nuevo León"
+		}, 
+		{
+			"id": 20,
+			"estado": "Oaxaca"
+		}, 
+		{
+			"id": 21,
+			"estado": "Puebla"
+		}, 
+		{
+			"id": 22,
+			"estado": "Querétaro"
+		}, 
+		{
+			"id": 23,
+			"estado": "Quintana Roo"
+		}, 
+		{
+			"id": 24,
+			"estado": "San Luis Potosí­"
+		}, 
+		{
+			"id": 25,
+			"estado": "Sinaloa"
+		}, 
+		{
+			"id": 26,
+			"estado": "Sonora"
+		}, 
+		{
+			"id": 27,
+			"estado": "Tabasco"
+		}, 
+		{
+			"id": 28,
+			"estado": "Tamaulipas"
+		}, 
+		{
+			"id": 29,
+			"estado": "Tlaxcala"
+		}, 
+		{
+			"id": 30,
+			"estado": "Veracruz"
+		}, 
+		{
+			"id": 31,
+			"estado": "Yucatán"
+		}, 
+		{
+			"id": 32,
+			"estado": "Zacatecas"
+		}
+	],
+	"empresas": [
+	{
+		"id": -1,
+		"empresa": "==TODAS=="
+	},
+	{
+		"id": 1,
+		"empresa": "Grupo Bimbo S.A."
+	},
+	{
+		"id": 2,
+		"empresa": "Grupo Cifra W"
+	}, 
+	{
+		"id": 3,
+		"empresa": "Televisa S.A."
+	}, 
+	{
+		"id": 4,
+		"empresa": "TV Azteca"
+	}
+	],
+	"marcas": [
+	{
+		"id": -1,
+		"marca": "==TODAS=="
+	}, 
+	{
+		"id": 1,
+		"marca": "NISSAN"
+	}, 
+	{
+		"id": 2,
+		"marca": "FORD"
+	},
+	{
+		"id": 3,
+		"marca": "HONDA"
+	},
+	{
+		"id": 4,
+		"marca": "PEUGEOT"
+	}
+	],
+
+	"modelos": [
+		{
+			"id": -1,
+			"modelo": "==TODOS==",
+			"marcaid": -1
+		}, 
+		{
+			"id": 1,
+			"modelo": "March",
+			"marcaid": 1
+		}, 
+		{
+			"id": 2,
+			"modelo": "Tsuru",
+			"marcaid": 1
+		}, 
+		{
+			"id": 3,
+			"modelo": "Focus",
+			"marcaid": 2
+		},
+		{
+			"id": 4,
+			"modelo": "Accord",
+			"marcaid": 3
+		},
+		{
+			"id": 5,
+			"modelo": "Peugeot",
+			"marcaid": 4
+		},
+		{
+			"id": 6,
+			"modelo": "Tiida",
+			"marcaid": 1
+		},
+		{
+			"id": 7,
+			"modelo": "Fit",
+			"marcaid": 3
+		},
+		{
+			"id": 8,
+			"modelo": "Escape",
+			"marcaid": 2
+		},
+		{
+			"id": 9,
+			"modelo": "Altima",
+			"marcaid": 1
+		}
+	]
+}

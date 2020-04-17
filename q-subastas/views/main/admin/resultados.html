@@ -1,0 +1,72 @@
+<h2 id="btnResultados" style="cursor:pointer">Resultados por Subasta</h2>
+<div style="height:300px; overflow:auto;width:100%" id="contenedor_tabla">
+<table id="tblResultadosSubastas" class="responsive-table striped">
+	<thead>
+		<tr>
+			<th>Nombre</th>
+			<th class='center-align'>Fecha Inicio</th>
+			<th class='center-align'>Fecha Fin</th>
+			<th class='center-align'>Estatus</th>
+			<th class='center-align'>Tipo de subasta</th>
+			<th class='center-align'>Empresa(s)</th>
+			<th class='center-align'>Total participantes</th>
+			<th class='center-align'>Total autos</th>
+			<th class='center-align'>Total pujas</th>
+			<th class='center-align'>Revisar resultados DESC</th>
+			<th class='center-align'>Reporte PDF</th>
+			<!-- <th class='center-align'>Revisar resultados ASC</th>
+			<th class='center-align'>Revisar resultados MAX</th> -->
+		</tr>
+	</thead>
+	<tbody></tbody>
+</table>
+</div>
+<div style="height:300px; overflow:auto;width:100%" id="contenedor_tabla_ganadores">
+<table id="tblGanadores" class="responsive-table striped">
+	<thead>
+		<tr>
+			<td id="thNombreSubasta" class='center-align' colspan="8"></td>
+		</tr>
+		<tr>
+			<th class='center-align'>Foto</th>
+			<th class='center-align'>Marca</th>
+			<th class='center-align'>Modelo</th>
+			<th class='center-align'>Año</th>
+			<th class='center-align'>Precio</th>
+			<th class='center-align'>Ganador</th>
+			<th class='center-align'>Oferta ganadora</th>
+			<th class='center-align'>Hora de la oferta</th>
+			<th class='center-align'>Ganancia</th>
+			<th class='center-align'>Detalle de ofertas</th>
+		</tr>
+	</thead>
+	<tbody>
+
+	</tbody>
+</table>
+</div>
+<div id="divTotalOfertas" class="modal bottom-sheet">
+	<div class="modal-footer">
+
+			<a href="#!" class="modal-action modal-close waves-effect waves-green btn red tooltipped" data-position="top" data-delay="50" data-tooltip="Cerrar"><i class="material-icons">clear</i></a>
+
+	</div>
+	<div id="tblTotalOfertas" class="modal-content divRegistro">
+		<table class="responsive-table striped">
+			<thead>
+				<tr>
+					<th class='center-align'>Usuario</th>
+					<th class='center-align'>Oferta</th>
+					<th class='center-align'>Fecha de la oferta</th>
+					<th class='center-align'>Ganador</th>
+					<th class='center-align'>Estatus</th>
+					<th class='center-align'>Motivo</th>
+				</tr>
+			</thead>
+			<tbody id="tblTotalOfertasBody">
+
+			</tbody>
+		</table>
+	</div>
+
+</div>

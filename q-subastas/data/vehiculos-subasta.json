@@ -1,0 +1,7 @@
+{
+    "vehiculos":[
+        {   "idVehiculo":1, "idSubasta": 1, "foto":"fotos/nassau.jpg", "vehiculo":"Aiyumo Nassau 125 2010", "descripcion": "Con daños, Gasolina, Negro", "ubicacion":"Tarragona", "kms":"8,400 Km", "salida":"$125,000", "imagenes":[ "audiA4avant.jpg", "audiA4Avant1.jpg", "audiA4Avant2.jpg","audiA4Avant3.jpg","audiA4Avant4.jpg","audiA4Avant5.jpg" ] },
+        {   "idVehiculo":2, "idSubasta": 1, "foto":"fotos/audiA4avant.jpg", "vehiculo":"Audi A4 Avant 2.6 V6 2006", "descripcion": "Con daños, Gasolina, Plateado", "ubicacion":"Murcia", "kms":"324,000 Km", "salida":"$150,000", "imagenes":[ "audiA4avant.jpg", "audiA4Avant1.jpg", "audiA4Avant2.jpg","audiA4Avant3.jpg","audiA4Avant4.jpg","audiA4Avant5.jpg" ] }
+
+    ]
+}
