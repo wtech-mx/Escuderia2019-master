@@ -1,0 +1,88 @@
+  
+        <link href="css/jquery-ui.css" rel="stylesheet" />
+        <link href="css/materialize.css" rel="stylesheet"/>
+        <link href="css/font-awesome.css" rel="stylesheet"/>
+        <link href="../../css/styles.css" rel="stylesheet"/>
+        <link href="css/mediaQueries.css" rel="stylesheet"/>
+
+<h2>Detalle de Subasta</h2>
+<div id="divInfoSubasta" class="row">
+
+    <div id="divHeadSubasta" class="col s12">
+        <div id="divOfertasXUsuario" class="chip right">
+            Autos ofertados: <span id="numOfertasXusuario">#OFERTASXUSUARIO#</span> de <span id="numOfertasPosibles">#TOTALOFERTAS#</span>
+        </div>
+        <div id="divTotalAutos" class="chip right">
+            Autos a subastar: #TOTAL_AUTOS#
+        </div>
+        <div id="divIncremento" class="chip right">
+            Incremento mínimo: #INCREMENTO#
+        </div>
+        <div id="divGanadores" class="chip right">
+            Máximo #AUTOSXUSUARIO# autos por usuario
+        </div>
+        <div id="divOfertasUsuario" class="chip right">
+            Máximo #OFERTASXUSUARIO# ofertas por usuario
+        </div>
+         <div id="divTipoSubasta" class="chip right">
+            Tipo de Subasta:
+        </div>
+        <div id="divEulaSubasta" class="chip right" style="cursor: pointer;">
+            Ver términos y condiciones
+        </div>
+         <!--<div id="divTtlSubasta" class="chip right"></div>-->
+    </div>
+
+    <div id="divContenidoSubasta" class="col s12"></div>
+
+    <div id="modalPuja" class="modal">
+        <div class="modal-header">
+            <div class="btn modal-action modal-close waves-effect red">
+                <i class="material-icons">close</i>
+            </div>
+        </div>
+        <div>
+            <div class="chip right modal-puja-incremento"></div>
+            <div class="chip right modal-puja-precio"></div>
+            <div class="chip right modal-puja-ultimaoferta"></div>
+        </div>
+        <div class="modal-content">
+           <div class="input-field col s12">
+              Recuerde que la oferta debe ser superior al precio, mayor que la última oferta y respetar el incremento solicitado por oferta.
+            </div>
+            <div class="input-field col s12" id="divAlertaConfirmarOferta" style="display:none">
+              ##CONFIRMAR_OFERTA##
+            </div>
+
+            <div class="input-field col s12" id="divInputOfertas">
+              <input name="txtOferta" id="txtOferta" type="text" class="validate" type="number" >
+              <label for="last_name">Oferta:</label>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <a class="waves-effect waves-light btn" attr-subastaid="0" attr-idauto="0" id="btnConfirmarOferta" onclick="ConfirmarOferta(this);">
+                Ofertar
+            </a>
+			<div class="input-field col s12" id="divConfirmarOferta" style="display:none;">
+				<a id="btnGuardarOferta" class="waves-effect waves-light btn" attr-subastaid="0F" attr-idauto="0" onclick="GuardarOferta(this);">Confirmar Oferta</a>
+				<a  class="waves-effect waves-light btn red" attr-subastaid="0" attr-idauto="0" onclick="CancelarOferta();">Cancelar</a>
+			</div>
+
+        </div>
+    </div>
+
+    <div id="modalOfertas" class="modal bottom-sheet modal-fixed-footer">
+        <div class="modal-content">
+            <table id="divOfertas" class="striped responsive-table centered"></table>
+        </div>
+        <div class="modal-footer">
+            <a href="" class="modal-action modal-close waves-effect waves-green btn">Cerrar</a>
+        </div>
+    </div>
+
+</div>
+
+<div id="divDetalleAuto" class="modal"></div>
+<div id="dialogEula" class="modal" style="display:none;">
+
+</div>

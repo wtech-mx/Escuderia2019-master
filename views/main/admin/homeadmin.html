@@ -1,0 +1,97 @@
+<h2>Administrador de Home</h2>
+<div id="divAdminHome">
+    
+    <div class="input-field divSeccionesHome">
+        <select id="cmbSeccionesHome" name="cmbSeccionesHome" ></select>
+        <label for="cmbSeccionesHome" >Sección:</label>
+    </div>
+
+    <div class="input-field divTxtTag">
+        <input id="txtTag" name="txtTag" type="text" disabled/>
+        <label for="txtTag" >Tag:</label>
+    </div>
+
+    
+    <div class="switch divChkestatus center">
+        <label>
+          Inactivo
+          <input type="checkbox" name="chkestatus" id="chkestatus">
+          <span class="lever"></span>
+          Activo
+        </label>
+      </div>
+    
+
+    <div class="input-field divTipoContenido">
+        <select id="cmbTipoContenido" name="cmbTipoContenido" >
+            <option value="1">Imagen</option>
+            <option value="0">Video</option>
+        </select>
+        <label for="cmbTipoContenido" >Tipo de contenido:</label>
+    </div>
+
+    <div class="input-field divTxtUrl">
+        <input id="txtUrl" name="txtUrl" type="text"/>
+        <label for="txtUrl" >Url:</label>
+    </div>
+
+    <div class="input-field fotoAuto">
+
+        <div class="file-field input-field ">
+            <div class="btn">
+                <i class="material-icons">attach_file</i>
+                <input id="uploadFile" type="file" name="uploadFile" >
+            </div>
+            <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Upload one or more files">
+            </div>
+        </div>
+        <div type="button" id="btnUploadHome" class="btn waves-effect waves-light">
+            <i class="material-icons">playlist_add</i>
+        </div>
+
+    </div>
+    
+    <div class="input-field divUbicacion">
+        <select id="cmbUbicacion" name="cmbUbicacion" >
+            <option value="0">Landing / Home</option>
+            <option value="1">Solo home</option>
+            <option value="2">Solo landing</option>
+        </select>
+        <label for="cmbUbicacion" >Ubicación:</label>
+    </div>
+    
+    <div class="input-field divTxtAncho">
+        <input id="txtAncho" name="txtAncho" type="text" disabled/>
+        <label for="txtAncho" >Ancho:</label>
+    </div>
+    
+    <div class="input-field divTxtAlto">
+        <input id="txtAlto" name="txtAlto" type="text" disabled/>
+        <label for="txtAlto" >Alto:</label>
+    </div>
+    
+    <div class="switch divChkeslink center">
+        <label>
+        	<input type="checkbox" name="chkeslink" id="chkeslink">
+            <span class="lever"></span> 
+            Es link
+            <i class="material-icons">link</i> 
+            </label>
+    </div>
+    
+    <div class="input-field divLink" id="divLink">
+        <label for="txtlink" >Link:</label>
+        <input id="txtlink" name="txtlink" type="text"/>
+    </div>
+    <div class="adminHomeButtons center">
+		<div id="btnGuardar" class="waves-effect waves-light btn btnGuardarAdminHome" >
+	        Guardar
+	    </div>
+	    <div id="bntActualizar" class="waves-effect waves-light btn bntActualizarAdminHome">
+	        Actualizar home
+	    </div>
+	</div>
+</div>
+
+<div id="divAdminHomeContenido"></div>

@@ -1,0 +1,69 @@
+<h2>BUSQUEDA DE AUTOS</h2>
+<div class="cnfgSubastaContainer">
+
+    <div>
+        <label>DESCRIPCION:</label>
+        <input type="text" name="desc">
+    </div>
+    <div>
+        <div>
+            <label>MARCA:</label>
+            <select id="cmbMarcas" ></select>
+        </div>
+        <div>
+            <label>MODELO:</label>
+            <select id="cmbModelos" ></select>
+        </div>
+        <div>
+            <label>AÑO:</label>
+            <select id="cmbAnio" ></select>
+        </div>
+
+    </div>
+
+    <div>
+        <label>ESTADOS:</label>
+        <select id="cmbEstados" ></select>
+    </div>
+
+    <div>
+        <label>PRECIO:</label>
+        <select id="cmbPrecio" ></select>
+    </div>
+
+    <div>
+        <label>KILOMETROS:</label>
+        <select id="cmbKilometros" ></select>
+    </div>
+    <div class="btnContainer">
+        <button type="button" class="btnBuscar" onclick="cargaVehiculos()">
+            BUSCAR
+        </button>
+    </div>
+
+</div>
+
+<h2>VEH&Iacute;CULOS</h2>
+<div id="grdVehiculos">
+    <div class="rows mierda">
+        <div>&nbsp;</div>
+        <div>
+            MARCA
+        </div>
+        <div>
+            MODELO
+        </div>
+        <div>
+            KILOMETRAJE
+        </div>
+        <div>
+            PRECIO
+        </div>
+        <div>
+            FOTOS
+        </div>
+        <div></div>
+    </div>
+</div>
+
+<div id="divDetalleAuto" class="divContenido modal modal-fixed-footer"></div>

@@ -1,0 +1,10 @@
+COLOCA LOS SIGUIENTES ARCHIVOS EN LOS DIRECTORIOS QUE TE VOY A PONER AQUI
+
+		Archivo			Directorio 
+////---------> request.js		C:\xampp\htdocs\Escuderia-update\scripts
+
+////--------->ConexionBD.php		C:\xampp\htdocs\Escuderia-update\q-subastas\data
+
+////--------->loginmysql.php		C:\xampp\htdocs\Escuderia-update\subastas\data
+
+

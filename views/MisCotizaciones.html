@@ -1,0 +1,85 @@
+<div class="cnfgSubastaContainer row">
+    <form class="col s12">
+     <div class="input-field col s12">
+        <input type="text" id="txtFiltro" name="txtFiltro" class="validate">
+        <label for="txtFiltro" >Texto:</label>
+    </div>
+
+    <div class="input-field col s12">
+         
+        <input type="text" id="txtFechaInicio" name="txtFechaInicio" class="validate" />
+        <label for="txtFechaInicio" >Fecha inicial:</label>
+    </div>
+    <div class="input-field col s12">
+         
+        <input type="text" id="txtFechaFin" name="txtFechaFin" class="validate" />
+        <label for="txtFechaFin" >Fecha final:</label>
+    </div>
+    <div class="btnContainer input-field col s2">
+            <button type="button" id="btnFiltrar" class="btnBuscar btn waves-effect waves-light right light-blue lighten-1" type="submit" onclick="buscarAutos()">
+                Buscar
+                <i class="material-icons right">search</i>
+            </button>
+        </div>
+
+    </form>
+</div>
+<table id="grdMisCotizaciones" class="responsive-table striped">
+    <tr>
+        <th>#</th>
+        <th>Nombre</th>
+		<th>Correo</th>
+		<th>Modelo</th>
+        <th>Detalle</th>
+        <th>Fecha</th>
+        <th>Estatus</th>
+        <th>&nbsp;</th>
+    </tr>
+</table>
+
+
+
+
+<div id="detalleCotizaciones" class="divContenido modal modal-fixed-footer">
+    <div href="#!" class="btn modal-action modal-close waves-effect red" >
+        <i class="material-icons">close</i>
+    </div>
+    <div class="modal-content">
+        <form class="col s12">
+            <div class="input-field col s12" id="fechaCotizacion"></div>
+            <div class="input-field col s12">
+                <label for="idCotizacion" >Folio</label>
+                <input type="text" name="idCotizacion" id="idCotizacion" disabled="disabled" />
+            </div>
+            <div class="input-field col s12">
+                <label for="cotizacionNombre" >Nombre</label>
+                <input type="text" name="cotizacionNombre" id="cotizacionNombre" disabled="disabled" />
+            </div>
+            <div class="input-field col s12">
+                <label for="cotizacionTelefono" >Teléfono</label>
+                <input type="text" name="cotizacionTelefono" id="cotizacionTelefono" disabled="disabled" />
+            </div>
+            <div class="input-field col s12">
+                <label for="cotizacionCorreo" >Correo</label>
+                <input type="text" name="cotizacionCorreo" id="cotizacionCorreo" disabled="disabled" />
+            </div>
+            <div class="input-field col s12">
+                <label for="marcaModeloTipo" >Vehículo</label>
+                <input type="text" name="marcaModeloTipo" id="marcaModeloTipo" disabled="disabled" />
+            </div>
+            <div class="input-field col s12">
+              <textarea id="cotizaDetalle" name="cotizaDetalle"  type="text" class="validate materialize-textarea"" disabled="disabled" ></textarea> 
+              <label for="cotizaDetalle">Detalle</label>
+            </div>
+            <div class="input-field col s12">
+              <textarea id="cotizaComentario" name="cotizaComentario"  type="text" class="validate materialize-textarea""  disabled="disabled"></textarea> 
+              <label for="cotizaComentario">Comentario</label>
+            </div>
+           
+        </form>
+    </div>
+    <div class="modal-footer">
+            <a id="btnGuardaAuto" href="#!" class="waves-effect waves-green btn tooltipped" data-position="top" data-delay="50" data-tooltip="Agrega empresa a la lista"><i class="material-icons">assignment_turned_in</i></a>
+        </div>
+</div>    
+   

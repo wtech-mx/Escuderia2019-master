@@ -1,0 +1,18 @@
+<html style="margin:0;padding:0;background-color:#1E2328;width: 100%;height:100%;font-family:sans-serif;">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<body style="margin:0;padding:0;background-color:#1E2328;width: 100%;height:100%;font-family:sans-serif;">
+		<div style="width: 80%;margin: 0 auto;float: none;background-size: cover;background-color: rgba(255,255,255,0.6);height: 100%;">
+			<h2 style="background:#1E2328;height:80px;width: 100%;float: left;margin-top:0;color: #ffffff;line-height:80px;"><img src="##DOMINIO##images/logoHeader.png" style="background-repeat:no-repeat;height:80px;width:300px;position: relative;float:left;" />Bienvenido a escuder&iacute;a</h2>
+			<p style="loat: left;">
+				<div style="width: 96%;float: left;margin:10px 2%;font-size:1.4rem;color:rgb(60,65,70);font-family: 'Inconsolata', monospace;text-align: center;">Gracias por inscribirte con nosotros.</div>
+				<div style="width: 96%;float: left;margin:10px 2%;font-size:1.4rem;color:rgb(60,65,70);font-family: 'Inconsolata', monospace;text-align: center;">Para terminar su registro por favor confirme su direcci&oacute;n de correo electr&oacute;nico haciendo click en el siguiente vínculo:</div>
+				<div style="width: 96%;float: left;margin:10px 2%;font-size:1.4rem;color:rgb(60,65,70);font-family: 'Inconsolata', monospace;text-align:center !important;">
+				<a style="width: 200px;height: 50px;line-height: 50px;border-radius: 2px;background-color: #26a69a;padding: .5em 1em .5em 1em;text-align: center;color: #ffffff;text-decoration: none;box-shadow: 0 0 4px #000000;font-family: 'Inconsolata', monospace;" href="##DOMINIO##home.php?s=valida&claveapi=##claveApi##&idusuario=##idusuario##&correo=##correo##">Confirmar mail</a>
+				</div>
+				<div style="width: 96%;float: left;margin:10px 2%;font-size:1.4rem;color:rgb(60,65,70);font-family: 'Inconsolata', monospace;text-align: center;">O bien copiando el siguiente c&oacute;digo: </div>
+				<div style="width: 96%;float: left;margin:10px 2%;font-size:1.4rem;color:rgb(60,65,70);font-family: 'Inconsolata', monospace;text-align: center;">##claveApi##</div>
+				<div style="width: 96%;float: left;margin:10px 2%;font-size:1.4rem;color:rgb(60,65,70);font-family: 'Inconsolata', monospace;text-align: center;">en la pantalla de verificaci&oacute;n que aparecer&aacute; cuando se firme nuevamente en el sitio.</div>
+			</p>
+		</div>
+	</body>
+</html>

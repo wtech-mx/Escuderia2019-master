@@ -1,0 +1,99 @@
+<div class="cnfgSubastaContainer row">
+    <form class="col s12">
+	    <div class="input-field col s12">
+	        <label for="desc">Descripción:</label>
+	        <input id="desc" type="text" class="validate" name="desc">
+	    </div>
+	    <div class="rango col s6">
+	    	<div class="input-field col s6">
+		        <label for="txtPrecioIni">PRECIO DE:</label>
+		        <input type="number" name="txtPrecioIni" id = "txtPrecioIni">
+	        </div>
+	        <div class="input-field col s6">
+		        <label class="A" for="txtPrecioFin">A:</label>
+		        <input type="number" name="txtPrecioFin" id = "txtPrecioFin">
+	        </div>
+	    </div>
+	    <div class="rango col s6">
+	        <div class="input-field col s6">
+		        <label for="txtKmIni">KILOMETROS DE:</label>
+		        <input type="number" name="txtKmIni" id = "txtKmIni">
+	        </div>
+	        <div class="input-field col s6">
+		        <label class="A" for="txtKmFin">A:</label>
+		        <input type="number" name="txtKmFin" id ="txtKmFin">
+	        </div>
+	    </div>
+	    <div class="input-field col s3">
+	        <select id="cmbEstados" name="cmbEstados"></select>
+	        
+	    </div>
+	    <div class="input-field col s3">
+	        <select id="cmbMarcas" name="cmbMarcas"></select>
+	        
+	    </div>
+	    <div class="input-field col s2">
+	        <select id="cmbModelos" name="cmbModelos"></select>
+	        
+	    </div>
+	    <div class="input-field col s2">
+	        <select id="cmbAnio" name="cmbAnio"></select>	        
+	    </div>
+	    <div class="btnContainer input-field col s2">
+	        <button type="button" class="btnBuscar btn waves-effect waves-light right light-blue lighten-1" type="submit" onclick="buscarAutos()">
+	            Buscar
+	            <i class="material-icons right">search</i>
+	        </button>
+	    </div>
+	</form>
+</div>
+
+
+<table id="grdVehiculos" class="responsive-table striped">
+	<thead>
+    	<tr>
+    		<th></th>
+    		<th>MARCA</th>
+    		<th>MODELO</th>
+    		<th>KIL&Oacute;METRAJE</th>
+    		<th>PRECIO</th>
+    		<th>DETALLE</th>
+    	</tr>
+	</thead>
+</table>
+
+
+
+
+<div id='gallery"+ item.idAuto +"'  class='modal modal-fixed-footer'>
+	<div class='modal-content'>
+		<h4>Subasta:"+ item.idAuto +"</h4>
+
+		<div class='galleryunselected'><img src='fotos/" + item2 + "' onclick='seleccionaImagen(this);' onerror='imgError(this)';/>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Cerrar</a>
+	</div>
+</div>
+
+<!-- <div id="modal1" class="modal modal-fixed-footer">
+	<div class="modal-content">
+		<h4>Modal Header</h4>
+		<p>
+			A bunch of text
+		</p>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+	</div>
+</div> -->
+<div id="divRegistroAutos" class="divContenido modal modal-fixed-footer">
+	<div href="#!" class="btn modal-action modal-close waves-effect red" id="modalListaAutos"><i class="material-icons">close</i></div>
+	<div class="modal-content">
+		
+		<div id="divDetalleAuto"></div>
+	</div>
+
+</div>
+

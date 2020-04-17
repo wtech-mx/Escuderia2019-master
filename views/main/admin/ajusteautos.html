@@ -1,0 +1,66 @@
+<h2 class="adminSubastasTitle">Administrador de Subastas</h2>
+
+
+
+
+<div id="divProgramadorAutos">
+
+	<div class="btn waves-effect red  modal-close"  id="btnAdminSubastas" style="z-index: 13;position:absolute;right: 0;">
+		<i class="material-icons">close</i>
+	</div>
+	<h5 class="card-title" id="divProgramadorAutosTitulo"></h5>
+	<div class="col s12 cuerpoProgramador">
+		<div class="col s6">Hora de inicio: <span id="hora_inicio"></span></div>
+		<div class="col s6">Hora de Fin: <span id="hora_fin"></span></div>
+		<div>
+			<div class="input-field precioAuto">
+				<input type="number" step="5"  name="tiempoEntreAuto" id="tiempoEntreAuto" value="5" />
+				<label for="tiempoEntreAuto">Tiempo entre cada subasta:</label>
+			</div>
+		</div>
+		<div>
+			<label for="chkHabilitaSort" >Habilitar ordanamiento:</label>
+			<div class="switch">
+			    <label>
+			      Apagado
+			      <input id="chkHabilitaSort" name="chkHabilitaSort" type="checkbox" checked="checked">
+			      <span class="lever"></span>
+			      Encendido
+			    </label>
+		  	</div>
+	  	</div>
+		<div class="card-action">
+			<a class="waves-effect waves-light btn modal-trigger" href="#modal1">Guardar</a>
+		</div>
+
+
+
+
+		<div  id="divProgramadorAutosContenido">
+		</div>
+
+		
+		<div id="modal1" class="modal modal-fixed-footer">
+		    <div class="modal-content" style="height:200px !important;">
+		      <h4>¿Está seguro que desea guardar?</h4>
+		      <p>La información previa guardada podría perderse si continuá con esta acción.</p>
+		    </div>
+		    <div class="modal-footer card-action">
+		   		<a class="waves-effect waves-light btn modal-action modal-close red">Cancelar</a>
+		      	<a  id="btnGuardarOrdenamiento" class="waves-effect waves-light btn modal-action modal-close">Aceptar</a>
+		    </div>
+	  	</div>
+	  	<div id="modal2" class="modal modal-fixed-footer">
+		    <div class="modal-content" style="height:200px !important;">
+		      <h4>¿Está seguro que desea cambiar el tiempo entre subastas?</h4>
+		      <p>La información previamente cargada podría perderse si continuá con esta acción.</p>
+		    </div>
+		    <div class="modal-footer card-action">
+		   		<a class="waves-effect waves-light btn modal-action modal-close red">Cancelar</a>
+		      	<a  id="btnCambiarOrdenamiento" class="waves-effect waves-light btn modal-action modal-close">Aceptar</a>
+		    </div>
+	  	</div>
+
+	</div>
+
+</div>

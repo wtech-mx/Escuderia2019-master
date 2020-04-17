@@ -1,0 +1,14 @@
+RewriteEngine On
+Options -Multiviews
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?PATH_INFO=$1 [L,QSA]
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+<FilesMatch "\.(css|js|ico|pdf|jpg|jpeg|png|gif|php|woff|ttf)$">
+SetOutputFilter DEFLATE
+</FilesMatch>
+
+

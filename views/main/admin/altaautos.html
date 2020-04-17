@@ -1,0 +1,187 @@
+<h2 class="altaAutosTitle">REGISTRO DE AUTOS</h2>
+<div class="altaAutosContainer row">
+	<h5 id="divSubastaNombre"></h5>
+	<form class="col s12">
+		<h3>Características del auto</h3>
+		<div class="input-field cbMarcaAuto">
+			<select id="cbMarcaAuto" name="cbMarcaAuto" ></select>
+			<label for="cbMarcaAuto" >Marca	:</label>
+			<div class="waves-effect waves-light btn-floating amber darken-2" id="btnAddMarca" operacion="marcas" title="Agregar Marca"  desc="Marca:" data-target="dialog">
+				<i class="material-icons">add</i>
+			</div>
+		</div>
+
+		<div class="input-field cbModeloAuto">
+			<select id="cbModeloAuto" name="cbModeloAuto" >
+				<option value="0">== Seleccione ==</option>
+			</select>
+			<label for="cbModeloAuto" >Modelo:</label>
+			<div class="waves-effect waves-light btn-floating amber darken-2" id="btnAddModelo" operacion="modelos" title="Agregar Modelo" desc="Modelo:" data-target="dialog">
+				<i class="material-icons">add</i>
+			</div>
+		</div>
+
+		<div class="input-field cbColorAuto">
+			<select id="cbColorAuto" name="cbColorAuto" ></select>
+			<label for="cbColorAuto" >Color:</label>
+			<div class="waves-effect waves-light btn-floating amber darken-2" id="btnAddColor" operacion="colores" title="Agregar Color" desc="Color:" data-target="dialog">
+				<i class="material-icons">add</i>
+			</div>
+		</div>
+
+		<div class="input-field anioAuto">
+			<select id="cbAnioAuto" name="cbAnioAuto" ></select>
+			<label for="cbAnioAuto" >Año:</label>
+		</div>
+
+		<div class="input-field cbKMAuto">
+			<input type="text" name="cbKMAuto" id="cbKMAuto" />
+			<label for="cbKMAuto" >KM:</label>
+		</div>
+
+		<div class="input-field cbTipoTransmisionAuto">
+			<select id="cbTipoTransmisionAuto" name="cbTipoTransmisionAuto" ></select>
+			<label for="cbTipoTransmisionAuto" >Transmisión:</label>
+		</div>
+
+		<div class="input-field precioAuto">
+			<input type="text" name="precioAuto" id="precioAuto" />
+			<label for="precioAuto" >Precio:</label>
+		</div>
+
+		<div class="input-field cbEstadoAuto">
+			<select name="cbMotivoPrecio" id="cbMotivoPrecio">
+				
+			</select>
+			<label for="cbMotivoPrecio" >Precio basado en:</label>
+			<div class="waves-effect waves-light btn-floating amber darken-2" id="btnAddPrecio" operacion="precio" title="Motivo del precio" desc="Motivo del precio:" data-target="dialog">
+				<i class="material-icons">add</i>
+			</div>
+		</div>
+
+		<div class="input-field cbEstadoAuto">
+			<select id="cbEstadoAuto" name="cbEstadoAuto" ></select>
+			<label for="cbEstadoAuto" >Estado:</label>
+		</div>
+
+		<div class="input-field cbCiudadAuto">
+			<select name="cbCiudadAuto" id="cbCiudadAuto">
+				<option value="0">== Seleccione ==</option>
+			</select>
+			<label for="cbCiudadAuto" >Ciudad</label>
+		</div>
+		<div class="input-field cbKMAuto">
+			<input type="text" name="txtPlaca" id="txtPlaca" />
+			<label for="txtPlaca" >Placa:</label>
+		</div>
+		
+		<div class="input-field cbKMAuto">
+			<input type="text" name="txtNoSerie" id="txtNoSerie" />
+			<label for="txtNoSerie" >No. Serie:</label>
+		</div>
+		
+		<div class="input-field cbFeaturesAutos">
+			<select id="cbFeaturesAutos" ></select>
+			<label for="cbFeaturesAutos" class="chosen-select chosen-rtl" >Características</label>
+			<div id="btnAddFeature" class="waves-effect waves-light btn-floating amber darken-2 disabled">
+				<i class="material-icons">add</i>
+			</div>
+			<div id="btnAddCaracteristicas" class="waves-effect waves-light btn-floating amber darken-2" operacion="features" title="Agregar Caracteristicas" desc="caracteristica:" data-target="#dialog">
+				<i class="material-icons">playlist_add</i>
+			</div>
+			<div id="divFeatureContainer"></div>
+		</div>
+		<div class="divider"></div>
+
+		<div class="input-field txtaDescripcionAuto">
+			<!-- <textarea id="txtaDescripcionAuto" maxlength="1000" ></textarea> -->
+			<textarea id="txtaDescripcionAuto" class="materialize-textarea" maxlength="1000"></textarea>
+			<label for="txtaDescripcionAuto">Descripci&oacute;n</label>
+		</div>
+
+		<p class="chkPublicadoAutos">
+			<input type="checkbox" name="chkPublicadoAutos" id="chkPublicadoAutos" checked="checked" />
+			<label for="chkPublicadoAutos">Publicar:</label>
+		</p>
+
+		<div class="input-field fotoAuto">
+
+			<div class="file-field input-field ">
+				<div class="btn">
+					<i class="material-icons">attach_file</i>
+					<input id="fotoAuto" type="file" accept=".jpg,.png,.jpeg,image/png,image/jpg,image/jpeg" multiple />
+				</div>
+				<div class="file-path-wrapper">
+					<input class="file-path validate" type="text" placeholder="Upload one or more files">
+				</div>
+			</div>
+			<div type="button" id="btnUpload" class="btn waves-effect waves-light">
+				<i class="material-icons">playlist_add</i>
+			</div>
+			<div id="fotosSubidas" ></div>
+
+		</div>
+		<h3>Horario de subasta</h3>
+		<div class="input-field txtaDescripcionAuto">
+			<div  id="divProgramadorAutosContenido">
+			</div>
+		</div>
+		<h3>Datos de contacto</h3>
+		<div class="input-field precioAuto">
+			<input type="text" name="nombreContacto" id="nombreContacto" />
+			<label for="nombreContacto" >Nombre:</label>
+		</div>
+		<div class="input-field precioAuto">
+			<input type="text" name="telefonoContacto" id="telefonoContacto" />
+			<label for="telefonoContacto" >Teléfono:</label>
+		</div>
+		<div class="input-field precioAuto">
+			<input type="text" name="celularContacto" id="celularContacto" />
+			<label for="celularContacto" >Celular:</label>
+		</div>
+		<div class="input-field precioAuto">
+			<input type="text" name="correoContacto" id="correoContacto" />
+			<label for="correoContacto" >Correo:</label>
+		</div>
+		<div class="input-field txtaDescripcionAuto">
+			<textarea id="infoContacto" name ="infoContacto" class="materialize-textarea" maxlength="1000"></textarea>
+			<label for="infoContacto">Información adicional:</label>
+		</div>
+		
+		<div class="input-field btnsAuto">
+			<div class="btn-large waves-effect waves-light teal accent-3" id="btnGuardaAuto" attr-subastaid="0">
+				<i class="material-icons">save</i>
+			</div>
+			<div class="btn waves-effect waves-light" id="bntActualizaAuto" attr-subastaid="0" style="display:none;">
+				<i class="material-icons">refresh</i>
+			</div>
+		</div>
+		<input type="hidden" id="hora_fin">
+		<input type="hidden" id="hora_inicio">
+		<div id="dialog" class="modal">
+			<div id="btnCierraCatalogo" class="btn waves-effect red" id="modalListaAutos"><i class="material-icons">close</i></div>
+			<div class="modal-content">
+				<label id="labelMensaje" ><i class="material-icons">warning</i></label>
+				<div class="input-field col s12">
+					<input type="text" name="txtDescripcion" id="txtDescripcion" class="validate"/>
+					<label id="labelTxtDescripcion" for="txtDescripcion" >Descripción del vehiculo:</label>
+				</div>
+
+			</div>
+			<div class="modal-footer">
+				<div id="btnGuardarCatalogo" class="waves-effect waves-light btn green">
+					<i class="material-icons"></i>Guardar
+				</div>
+				<div id="btnActualizaCatalogo" class="waves-effect waves-light btn light-blue">
+					Actualizar
+				</div>
+				<div id="btnEliminaCatalogo" class="waves-effect waves-light btn red">
+					Eliminar
+				</div>
+			</div>
+		</div>
+
+	</form>
+
+</div>
+

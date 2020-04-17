@@ -1,0 +1,65 @@
+<h2>CONFIGURACI&Oacute;N SUBASTA</h2>
+<div class="cnfgSubastaContainer">
+	
+		
+	<div>
+		<label>EMPRESA:</label>
+		<select id="cmbEmpresa" ></select>
+	</div>
+	<div>	
+		<label>VIGENCIA:</label>
+		<div>
+			<label>Del: </label>
+			<input type="text" id="dp1"/> 
+			<label>al:</label>
+		 	<input type="text" id="dp2">
+	 	</div>
+	</div>
+	<div>
+		<h3>Caracter&iacute;sticas de la subasta</h3>
+		<div>
+			<input type="radio" name="tipoOfertaUnica" value="1" checked />
+			<label for="tipoOfertaUnica">Oferta &uacute;nica</label>
+		</div>
+		<div>
+			<input type="radio" name="tipoOfertaMulti" value="2" />
+			<label for="tipoOfertaMulti">Multi oferta</label>
+		</div>
+	</div>
+	<div>
+		
+		<div>
+			<label for="chkMulti">Multi Empresa</label>
+			<input type="checkbox" id="chkMulti" value="multiEmpresa" />
+		</div>
+	    <div class="toggles" style="display:none;"><button type="button" class="closeMulti">X</button></div>
+		<div>
+			<label>Valor m&iacute;nimo de incremento entre ofertas:</label>
+			<div>
+				<input type="text" value="$" id="txtInc"/>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<h2>VEH&Iacute;CULOS EN SUBASTA</h1>
+
+<div id="grdVehiculos">
+	
+	<div>
+		<div></div>
+		<div></div>
+		<div>AUTOS</div>
+		<div>UBICACI&Oacute;N</div>
+		<div>KIL&Oacute;METROS</div>
+		<div>FOTOS</div>
+		<div>SALIDA</div>
+		<div></div>
+	</div>
+</div>
+<div class="btnContainer">
+	<button type="button" class="btnGuardar">Guardar</button>
+	<button type=button class="btnPublicar">Publicar</button>
+</div>
+	
