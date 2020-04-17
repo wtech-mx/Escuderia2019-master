@@ -1,0 +1,31 @@
+
+<form id="upload" action="upload.php" method="POST" enctype="multipart/form-data">
+
+<fieldset>
+<legend>Buscar Documento</legend>
+
+<input type="hidden" id="MAX_FILE_SIZE" name="MAX_FILE_SIZE" value="300000" />
+
+<div>
+	<label for="fileselect">Archivo</label>
+	<input type="file" id="fileselect" name="fileselect[]" multiple="multiple" />
+	<div id="filedrag">o arrastre el ducumento aqui</div>
+</div>
+
+<div id="submitbutton">
+	<button type="submit">Archivos subidos</button>
+</div>
+
+</fieldset>
+
+</form>
+
+<div id="progress"></div>
+
+<div id="messages">
+</div>
+
+
+
+<script src="subir.js"></script>
+ 

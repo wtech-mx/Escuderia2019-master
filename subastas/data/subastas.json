@@ -1,0 +1,9 @@
+{
+    "datos":[
+        {   "id": 1, "idEstado":9, "idEmpresa":1, "empresa": "Grupo Bimbo S.A.", "estatus":"Finalizada", "fechaInicio"    :"12 de Junio 2016 13:00 hrs", "fechaFin":"15de Junio 2016 13:00 hrs", "tipo":"Abierta"   },
+        {   "id": 2, "idEstado":9, "idEmpresa":2, "empresa": "Grupo Cifra W", "estatus":"Finalizada", "fechaInicio":"12 de Junio 2016 13:00 hrs", "fechaFin":"15de Junio 2016 13:00 hrs", "tipo":"Cerrada" },
+        {   "id": 3, "idEstado":9, "idEmpresa":3, "empresa": "Televisa S.A.", "estatus":"Pendiente", "fechaInicio":"17 de Septiembre de  2016 13:00 hrs", "fechaFin":"20 de Septiembre 2016 13:00 hrs", "tipo":"Abierta" },
+        {   "id": 4, "idEstado":9, "idEmpresa":4, "empresa": "TV Azteca", "estatus":"En proceso", "fechaInicio":"12 de Junio de  2016 13:00 hrs", "fechaFin":"12 de Junio de  2016 13:00 hrs", "tipo":"Abierta" }
+        
+    ]
+}

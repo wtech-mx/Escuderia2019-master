@@ -1,0 +1,135 @@
+{
+	"Servicio": [
+	{
+		"idServicio": 1,
+		"Nombre":"Mecánica Automotríz.",
+		"Servicios":[
+			{
+				"idServicios":1,
+				"nombreServicios":"Afinacion de motor"
+			},
+			{
+				"idServicios":2,
+				"nombreServicios":"Ajuste de motor"
+			},
+			{
+				"idServicios":3,
+				"nombreServicios":"Alineacion"
+			},
+			{
+				"idServicios":4,
+				"nombreServicios":"Alineacion"
+			},
+			{
+				"idServicios":5,
+				"nombreServicios":"balanceo"
+			}
+		]
+	},
+	{
+		"idServicio": 2,
+		"Nombre":"Estética Automotríz."
+	},  
+	{
+		"idServicio": 3,
+		"Nombre":"Gestoría.",
+		"Servicios":[
+			{
+				"idServicios":1,
+				"nombreServicios":"Cambio de propietario",
+				"requisitos":[
+					{
+						"requisito":"Original y dos copias del formato de solicitud (se entrega al iniciar el trámite)."
+					},
+					{
+						"requisito":"Original y copia de la factura del vehículo o Carta factura con expedición no mayor a 30 días anexando copia de la factura original."
+					},
+					{
+						"requisito":"Original y dos copias de la tarjeta de circulación anterior."
+					},
+					{
+						"requisito":"Original y dos copias de identificación oficial vigente con fotografía."
+					},
+					{
+						"requisito":"Original y dos copias del comprobante de domicilio a nombre del interesado con domicilio del D.F. (expedición no mayor a tres meses)."
+					},
+					{
+						"requisito":"Pago de los derechos correspondientes."
+					},
+					{
+						"requisito":"Original y dos copias del pago de tenencia del año en curso y los cuatro anteriores."
+					},
+					{
+						"requisito":"Original y dos copias del tarjetón del R.F.A (para modelos 1989 o anteriores)."
+					},
+					{
+						"requisito":"Imprimir el repuve, que el vehículo no cuente con reporte de robo (http://www.repuve.gob.mx)."
+					}
+
+				]
+			},
+			{
+				"idServicios":2,
+				"nombreServicios":"Cambio de placas",
+				"requisitos":[
+					{
+						"requisito":"Documentos de Identificación oficial vigente."
+					},
+					{
+						"requisito":"Documentos de acreditación de personalidad jurídica:Personas morales: Acta Constitutiva, Poder Notarial e Identificación Oficial del representante o apoderado. Personas físicas: Carta Poder firmada ante dos testigos e identificación oficial del interesado y de quien realiza el trámite, así como copia de identificación de los testigos."
+					},
+					{
+						"requisito":"Comprobantes de domicilio."
+					},
+					{
+						"requisito":"Pago de derechos de acuerdo al trámite a realizar."
+					},
+					{
+						"requisito":"Comprobante de propiedad."
+					},
+					{
+						"requisito":"Para cambio de propietario Tenencia o refrendo"
+					},
+					{
+						"requisito":"Tarjeta de Circulación."
+					},
+					{
+						"requisito":"Para el caso de cambio de motor presentar factura del nuevo motor."
+					},
+					{
+						"requisito":"En caso de ser persona moral deberá presentar su Registro Federal de Contribuyentes."
+					}
+
+				]
+			},
+			{
+				"idServicios":3,
+				"nombreServicios":"Verificación",
+				"requisitos":[
+					{
+						"requisito":"Tarjeta de Circulación."
+					},
+					{
+						"requisito":"Documento de ultima Verificación."
+					}
+				]
+			},
+			{
+				"idServicios":4,
+				"nombreServicios":"Pago de tenencia",
+				"requisitos":[
+					
+				]
+			}
+		]
+	},  
+	{
+		"idServicio": 4,
+		"Nombre":"Venta de Autos."
+	},  
+	{
+		"idServicio": 5,
+		"Nombre":"Subasta de autos."
+	}
+	]
+}

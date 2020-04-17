@@ -1,0 +1,67 @@
+[
+    {
+        "id": "1",
+        "descripcion": "Banner 01 970 x 90",
+        "tag": "banner970x90_01",
+        "ancho": "970",
+        "alto": "90",
+        "url": "images\/banner970x90.png",
+        "ubicacion": "0",
+        "esimg": "1",
+        "eslink": "0",
+        "link": "",
+        "estatus": "1"
+    },
+    {
+        "id": "2",
+        "descripcion": "Info Seguridad",
+        "tag": "infoSeguridad",
+        "ancho": "320",
+        "alto": "320",
+        "url": "images\/home\/cac163c7-55e2-4dc4-bd4e-5020fadcbda9.jpeg",
+        "ubicacion": "0",
+        "esimg": "1",
+        "eslink": "0",
+        "link": "",
+        "estatus": "1"
+    },
+    {
+        "id": "3",
+        "descripcion": "Banner 300 x 600",
+        "tag": "banner300x600",
+        "ancho": "300",
+        "alto": "600",
+        "url": "images\/banner300x600.png",
+        "ubicacion": "0",
+        "esimg": "1",
+        "eslink": "0",
+        "link": "",
+        "estatus": "1"
+    },
+    {
+        "id": "4",
+        "descripcion": "Video Tips",
+        "tag": "videoTips",
+        "ancho": "100",
+        "alto": "100",
+        "url": "https:\/\/www.youtube.com\/embed\/-l8qVKc4r-c",
+        "ubicacion": "0",
+        "esimg": "0",
+        "eslink": "0",
+        "link": "",
+        "estatus": "1"
+    },
+    {
+        "id": "5",
+        "descripcion": "Banner 02 970 x 90",
+        "tag": "banner970x90_02",
+        "ancho": "970",
+        "alto": "90",
+        "url": "images\/banner970x90.png",
+        "ubicacion": "2",
+        "esimg": "1",
+        "eslink": "0",
+        "link": "",
+        "estatus": "1"
+    }
+]
