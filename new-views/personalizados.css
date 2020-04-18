@@ -1,0 +1,45 @@
+
+summary {
+	outline: none;
+	font-size: 16px;
+	padding: 13px;
+	
+	&:selection {
+		background: transparent;
+	}
+
+
+	.close {
+		display: none;
+		
+		[open] & {
+			display: inline;
+		}
+	}
+
+	.open {
+		display: inline;
+
+		[open] & {
+			display: none;
+		}
+	}
+
+	[open] & {
+		display: inline;
+	}
+
+	&:after {
+		margin-top: 2px;
+		content: "➕";
+		float: left;
+		margin-right: 11px;
+		text-align: center;
+		font-size: 11px;
+		
+		[open] & {
+			padding: 0 0 12px 0;
+			content: "➖";
+		}
+	}
+}

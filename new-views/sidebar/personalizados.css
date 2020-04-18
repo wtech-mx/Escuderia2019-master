@@ -1,0 +1,27 @@
+.input-izquerdo{
+	border-radius: 15px  0 0 15px;
+}
+.input-derecho{
+	border-radius: 0  15px 15px 0;
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    border: transparent;
+}
+
+.boton-redondeado{
+	border-radius: 18px;
+	border-color: transparent;
+}
+
+.border-circle{
+	border-radius: 50px;
+	border-color: transparent;
+}
