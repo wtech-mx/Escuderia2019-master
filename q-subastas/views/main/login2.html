@@ -2,36 +2,31 @@
 	<form class="floatingWindow row">
 		
 
-		<div class="logoCar"></div>
+		<div class="form-wrapper is-active">
+      <button type="button" class="switcher switcher-login">
+        Iniciar sesion
+        <span class="underline"></span>
+      </button>
+      <form class="form form-login">
+        <fieldset>
+          <legend>Please, enter your email and password for login.</legend>
+          <div class="input-block">
+            <label for="email">Correo Electrónico</label>
+            <input id="loginMail" type="email" name="email" class="validate">
+          </div>
 
-		<div class="input-field col s10 offset-s1">
-			<input id="loginMail" type="email" name="email" class="validate">
-			<label for="email">Correo Electrónico</label>
-		</div>
+          <div class="input-block">
+            <label for="password">Contrase&ntilde;a</label>
+            <input id="loginPassword" type="password" class="validate">
+          </div>
 
-		<div class="input-field col s10 offset-s1">
-			<input id="loginPassword" type="password" class="validate">
-			<label for="password">Contrase&ntilde;a</label>
-		</div>
-		<div class="col s2" style="padding-top: 20px;">
-
-		
-
-		</div>
-		
-		<div class="col s10 ">
-			<div id="btnLogin">
-				INGRESAR
-			</div>
-		</div>
-
-		
-		<div class="input-field col s10 offset-s1">
-            <a class="labelHome right" href="?s=registro">Registrarse</a>
-        </div>
-        
-		<div class="input-field col s10 offset-s1">
-            <a class="labelHome right" href="?s=recuperar">Olvidé mi contraseña</a>
-        </div>
+        </fieldset>
+        <button type="submit" class="btnLogin">Ingresar</button>
+          <div class="input-block">
+             <button type="submit" class="btn-login">
+              <a class="labelHome right" href="?s=recuperar" style="text-decoration: none;color: #fff">Olvidé mi contraseña</a></button>
+          </div>
+      </form>
+    </div>
 	</form>
 </div>
