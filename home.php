@@ -10,17 +10,13 @@ unregister_GLOBALS();
     <head>
         <meta charset="utf-8">
         <title>Escudería</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin-ext" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
         <link href="css/jquery-ui.css" rel="stylesheet" />
         <link href="css/materialize.css" rel="stylesheet"/>
         <link href="css/font-awesome.css" rel="stylesheet"/>
         <link href="css/styles.css" rel="stylesheet"/>
         <link href="css/mediaQueries.css" rel="stylesheet"/>
+
 
 		<script type="text/javascript" src="scripts/jquery-1.12.4.js"></script>
 		<script type="text/javascript" src="scripts/jquery-ui.js"></script>
