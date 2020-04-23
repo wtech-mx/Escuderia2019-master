@@ -15,10 +15,6 @@ unregister_GLOBALS();
 		<meta charset="utf-8">
 		<title>::Escudería::</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-		<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=latin-ext" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet"/>
-        <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,600,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 
         <link href="css/jquery-ui.css" rel="stylesheet" />
         <link href="css/materialize.css" rel="stylesheet"/>
@@ -87,29 +83,14 @@ unregister_GLOBALS();
 		<script type="text/javascript" src="scripts/MisCotizaciones.js<?php echo "?" . rand(0, 9999999); ?>"></script>
 		<script type="text/javascript" src="scripts/Contactanos.js<?php echo "?" . rand(0, 9999999); ?>"></script>
 		<script type="text/javascript" src="scripts/modulos/admin/useradmin.js<?php echo "?" . rand(0, 9999999); ?>"></script>
-
-
-
-		<?php
-
-
+<?php
 if(isset($_SESSION['claveapi'])){
-
     if(!usuarios::ValidaSesion($_SESSION['claveapi'], $_SESSION['idusuario'])){
-
-
        echo "<script> alert('Su sesión ha caducado'); sessionStorage.clear(); window.location.href =  siteurl+'home.php'; </script>";
-
-
     }
 }
-
 ?>
 	</body>
 	<!-- contenedor del cuerpo principal del sitio -->
-
-
 </html>
-<?php
-exit();
-?>
+<?php exit(); ?>

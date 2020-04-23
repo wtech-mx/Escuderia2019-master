@@ -21,14 +21,14 @@ unregister_GLOBALS();
         <link href="css/font-awesome.css" rel="stylesheet"/>
         <link href="css/styles.css" rel="stylesheet"/>
         <link href="css/mediaQueries.css" rel="stylesheet"/>
-		
+
 		<script type="text/javascript" src="scripts/jquery-1.12.4.js"></script>
 		<script type="text/javascript" src="scripts/jquery-ui.js"></script>
 		<script type="text/javascript" src="scripts/jssor.slider-22.2.8.debug.js" ></script>
 		<script type="text/javascript" src="scripts/dobPicker.min.js"></script>
 		<script type="text/javascript" src="scripts/jquery.colorbox.js"></script>
 		<script type="text/javascript" src="scripts/materialize.js"></script>
-		
+
         <script type="text/javascript" src="scripts/index2.js<?php echo "?" . rand(0, 9999999); ?>"></script>
         <script type="text/javascript" src="scripts/utilidades.js<?php echo "?" . rand(0, 9999999); ?>"></script>
         <script type="text/javascript" src="scripts/request.js<?php echo "?" . rand(0, 9999999); ?>"></script>
